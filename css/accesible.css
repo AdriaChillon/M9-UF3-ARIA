@@ -10,12 +10,13 @@ body {
     padding: 20px;
 }
 
-h1{
-    font-size:3em;
-    text-align: center;
-}
 h1, h2 {
     color: #135dab;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
 }
 
 header {
@@ -52,7 +53,6 @@ input[type="text"] {
 
 button {
     padding: 5px 10px;
-    /* background-color: #000000 !important;  */
     color: #000000 !important;
     border: none;
     cursor: pointer;
@@ -94,6 +94,7 @@ img {
     height: 250px;
     margin: 10px 0;
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
