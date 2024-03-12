@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
+    background: #b7b7b7 none repeat scroll 0 0;
 }
 
 .container {
@@ -11,12 +12,16 @@ body {
 }
 
 h1, h2 {
-    color: #143f6c;
+    color: #135dab;
 }
 
 h1 {
     font-size: 3em;
     text-align: center;
+}
+
+h3 {
+    color: white;
 }
 
 header {
@@ -47,52 +52,16 @@ form {
 
 input[type="text"] {
     padding: 5px;
-    color: #fff;
+    color: #000; /* Color del texto ajustado a negro */
     margin-right: 10px;
 }
 
 button {
-    padding: 5px 10px;
-    color: #000000 !important;
-    border: none;
+    padding: 8px 15px; /* Ajusta los valores según tu preferencia */
+    background-color: #22c489;
+    color: #000000;
+    border: 1px solid #22c489;
     cursor: pointer;
-}
-
-label {
-    display: none;
-}
-
-input[type="text"] {
-    padding: 5px;
-}
-
-button {
-    padding: 5px 10px;
-    background-color: #fff;
-    color: #007bff;
-    border: none;
-    cursor: pointer;
-}
-
-main {
-    padding: 10px;
-    background-color: #eaeaea !important;
-}
-
-.articulo {
-    display: flex;
-    flex-direction: row;
-}
-
-article {
-    max-width: 85%;
-    margin: 0 auto;
-}
-
-img {
-    width: 350px;
-    height: 250px;
-    margin: 10px 0;
 }
 
 .visually-hidden {
@@ -104,4 +73,14 @@ img {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white !important;
+}
+
+img { 
+    width: 100%;
 }

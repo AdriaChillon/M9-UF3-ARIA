@@ -123,7 +123,7 @@ img {
 }
 
 section {
-    background: #34495e;
+    background: #0b3057;
     color: #000;
     padding: 30px 0;
 }
@@ -140,7 +140,7 @@ section {
 }
 
 .contact p {
-    color: #929292;
+    color: white;
     letter-spacing: 1.5px;
     padding-top: 50px;
 }
