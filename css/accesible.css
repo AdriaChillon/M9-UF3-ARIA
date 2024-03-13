@@ -95,6 +95,27 @@ img {
     margin: 10px 0;
 }
 
+p {
+    text-align: justify;
+}
+
+#links {
+    font-weight: bold;
+    text-decoration: none;
+    color: #143f6c;
+    transition: color 0.3s ease;
+  }
+  
+  #links:hover {
+    color: #0056b3; 
+  }
+  
+  #links:active,
+  #links:visited {
+    color: #004687; 
+  }
+  
+
 .visually-hidden {
     position: absolute;
     width: 1px;
